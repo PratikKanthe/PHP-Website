@@ -70,6 +70,20 @@
             $myVar = (true and false);
             echo var_dump($myVar);
         ?>
+
+        <?php 
+        define('PI', 3.14); //define const like this
+            //Data types in PHP
+            // 1. String
+            // 2. Integer
+            // 3. Float
+            // 4. Boolean
+            // 5. Array
+            // 6.Object
+            echo "<br>";
+            echo PI;
+        ?>
+
     </div>
 </body>
 </html>
