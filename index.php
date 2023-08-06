@@ -41,8 +41,34 @@
             echo "the value of 1<=4 is: ";
             echo var_dump(1<=4);
             echo "<br>";
+
+
             // Increment/Decrement Operators
+            echo $var1++;
+            echo "<br>";
+            echo $var1;
+            echo "<br>";
+            // echo $var1--;
+            // echo "<br>";
+            // echo $var1;
+            // echo "<br>";
+            // echo ++$var1;
+            // echo "<br>";
+            // echo $var1;
+            // echo "<br>";
+            // echo --$var1;
+            // echo "<br>";
+            // echo $var1;
+            // echo "<br>";
+
+
             // Logical Operators
+            // and (&&) : both true
+            // or (||) 
+            // xor : it needs 1 true 1 false
+            // not (!)
+            $myVar = (true and false);
+            echo var_dump($myVar);
         ?>
     </div>
 </body>
